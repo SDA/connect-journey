@@ -1,0 +1,40 @@
+{
+	"name"           : "connect-journey",
+	"description"    : "node-journey middleware for connect. Implement JSON-only HTTP request routing (journey) through connect.",
+	"version"        : "0.0.1",
+	"keywords"       : ["util", "functional", "journey", "JSON", "router", "connect", "middleware"],
+	"homepage"       : "http://github.com/SDA/connect-journey",
+	"author"         : "Sasa Djolic <sasa.djolic@sdaworld.com>",
+	"maintainers"    : [{
+		"name"       : "Sasa Djolic",
+		"email"      : "sasa.djolic@sdaworld.com",
+		"web"        : "http://www.sasadjolic.com"
+	}],
+	"contributors"   : [{
+		"name"       : "Sasa Djolic",
+		"email"      : "sasa.djolic@sdaworld.com",
+		"web"        : "http://www.sasadjolic.com"
+	}],
+	"bugs"           : { "url": "http://github.com/SDA/connect-journey/issues" },
+	"licenses"       : [{ "type": "MIT", "url": "https://raw.github.com/SDA/connect-journey/master/LICENSE" }],
+	"repositories"   : [{ "type": "git", "url": "http://github.com/SDA/connect-journey" }],
+	"scripts"        : {
+		"build"      : "node build/build.js",
+		"test"       : "node test/test.js"
+	},
+	"directories"    : {
+		"lib"        : "lib"
+	},
+	"devDependencies": {
+		"assert"     : "0.4.x",
+		"connect"    : "2.1.x",
+		"journey"    : "0.4.x",
+		"request"    : "2.9.x",
+		"seq"        : "0.3.x"
+	},
+	"dependencies"   : {
+	},
+	"engines"        : {
+		"node"       : "0.6.x"
+	}
+}
