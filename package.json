@@ -1,7 +1,7 @@
 {
 	"name"           : "connect-journey",
 	"description"    : "node-journey middleware for connect. Implement JSON-only HTTP request routing (journey) through connect.",
-	"version"        : "0.0.1",
+	"version"        : "0.1.0",
 	"keywords"       : ["util", "functional", "journey", "JSON", "router", "connect", "middleware"],
 	"homepage"       : "http://github.com/SDA/connect-journey",
 	"author"         : "Sasa Djolic <sasa.djolic@sdaworld.com>",
@@ -25,6 +25,7 @@
 	"directories"    : {
 		"lib"        : "lib"
 	},
+	"main"           : "lib/connect-journey",
 	"devDependencies": {
 		"assert"     : "0.4.x",
 		"connect"    : "2.1.x",
